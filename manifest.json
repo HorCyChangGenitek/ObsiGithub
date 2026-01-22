@@ -1,0 +1,10 @@
+{
+    "id": "obsigithub",
+    "name": "ObsiGithub",
+    "version": "1.1.5",
+    "minAppVersion": "0.15.0",
+    "description": "Publish your notes and attachments to GitHub with a containerized, privacy-focused structure.",
+    "author": "HorCy",
+    "authorUrl": "https://github.com/HorCy",
+    "isDesktopOnly": false
+}

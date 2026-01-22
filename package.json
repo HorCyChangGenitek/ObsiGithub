@@ -1,0 +1,33 @@
+{
+    "name": "obsigithub",
+    "version": "1.1.5",
+    "description": "Publish Obsidian notes to GitHub with containerized structure.",
+    "main": "main.js",
+    "scripts": {
+        "dev": "node esbuild.config.mjs",
+        "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+        "version": "node version-bump.mjs && git add manifest.json versions.json"
+    },
+    "keywords": [
+        "obsidian",
+        "obsidian-plugin",
+        "github",
+        "publish"
+    ],
+    "author": "HorCy",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^16.11.6",
+        "@typescript-eslint/eslint-plugin": "5.29.0",
+        "@typescript-eslint/parser": "5.29.0",
+        "builtin-modules": "3.3.0",
+        "esbuild": "0.17.3",
+        "obsidian": "^1.7.2",
+        "tslib": "2.4.0",
+        "typescript": "4.7.4"
+    },
+    "dependencies": {
+        "@octokit/rest": "^20.0.2",
+        "@octokit/types": "^12.4.0"
+    }
+}
