@@ -41,7 +41,7 @@ If you want automatic updates, we recommend using **BRAT (Beta Reviewers Auto-up
 2. Create a directory in your Obsidian vault: `.obsidian/plugins/obsigithub/`.
 3. Place the downloaded files into this directory.
 4. Restart Obsidian and enable the plugin.
-
+<!-- -->
 1. 至 [Releases](https://github.com/YourUsername/ObsiGithub/releases) 頁面下載最新版本的 `main.js`, `manifest.json`, `styles.css` (若有)。
 2. 在您的 Obsidian 保存庫中建立目錄：`.obsidian/plugins/obsigithub/`。
 3. 將下載的檔案放入該目錄。
@@ -70,7 +70,7 @@ Go to **ObsiGithub** settings:
 ### 3. Publishing (開始發佈)
 *   **Publish Single Note**: Right-click on a note -> `Publish to GitHub`.
 *   **Manage**: Click the GitHub icon in the left ribbon to open the Management View, where you can check UUIDs or remove old shares.
-
+<!-- -->
 *   **單檔發佈**：在筆記上按右鍵 -> `Publish to GitHub`。
 *   **管理**：點選左側 Ribbon 的 GitHub 圖示，開啟管理面板，可查詢 UUID 或移除舊的分享。
 
